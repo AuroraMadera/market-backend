@@ -44,4 +44,36 @@ public class Cliente {
 
     @Column(name = "correo_electronico")
     private String CorreoElectronico;
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public void setCelular(String celular) {
+        this.celular = celular;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public List<Compra> getCompras() {
+        return compras;
+    }
+
+    public void setCompras(List<Compra> compras) {
+        this.compras = compras;
+    }
+
+    public void setCorreoElectronico(String correoElectronico) {
+        CorreoElectronico = correoElectronico;
+    }
 }

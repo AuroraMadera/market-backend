@@ -21,4 +21,12 @@ public class CompraProductoPK implements Serializable{
     public Integer getIdProducto() {
         return idProducto;
     }
+
+    public void setIdCompra(Integer idCompra) {
+        this.idCompra = idCompra;
+    }
+
+    public void setIdProducto(Integer idProducto) {
+        this.idProducto = idProducto;
+    }
 }
